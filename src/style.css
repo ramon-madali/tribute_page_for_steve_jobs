@@ -1,0 +1,106 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 0.97rem;
+  line-height: 1rem;
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+  }
+
+#title {
+  font-size: 3rem;
+  color: #E70B1C;
+  font-family: Impact;
+  }
+
+@media (max-width: 450px) {
+  #title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+}
+
+
+p {
+  text-align: justify;
+}
+
+#subtitle {
+  font-family: Impact;
+  color: #033;
+  background-color: #DAF7A6;;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+
+h2 {
+  text-align: left;
+  color: #033;
+  font-family: Verdana;
+  font-style: oblique;
+  line-height: 1.2;
+}
+
+a {
+  color: red;
+}
+
+
+#main {
+  margin: 30px 10px;
+  padding: 15px;
+  background-color: #D3D6EB;
+  
+}
+
+@media (max-width: 450px) {
+  #main {
+    margin: 2px;
+  }  
+}
+
+
+#image {
+  max-width: 800px;
+  display: block;
+  height: auto;
+  margin: 10px auto;
+  
+}
+
+@media (max-width: 900px) {
+  #image {
+    max-width: 100%;
+  }
+}
+
+#image2 {
+  max-width: 600px;
+  display: block;
+  height: auto;
+  margin: 10px auto;
+}
+
+@media (max-width: 800px) {
+  #image2 {
+    max-width: 100%;
+  }
+}
+
+
+figcaption {
+   font-size: 0.9rem;
+  font-family: Bookman;
+  padding: 6px;
+}
+
+figure {
+  padding: 1px;
+  background: #eee;
+  margin: 0;
+  border-radius: 1%;
+}
